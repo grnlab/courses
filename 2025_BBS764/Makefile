@@ -1,6 +1,6 @@
 TARGETS_DATA=run/raw.xlsx
 DTARGETS_INPUT_SLIDES=workshop.slides.html workshop_student.slides.html
-DTARGETS_NOINPUT_SLIDES=lecture.slides.html homework.slides.html
+DTARGETS_NOINPUT_SLIDES=lecture.slides.html homework.slides.html homework_answers.slides.html
 DTARGETS_SLIDES=$(DTARGETS_INPUT_SLIDES) $(DTARGETS_NOINPUT_SLIDES)
 DTARGETS_NOTEBOOKS=workshop_student.ipynb workshop.ipynb
 DTARGETS_DATA=run/processed.tsv.gz
